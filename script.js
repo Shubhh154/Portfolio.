@@ -46,6 +46,11 @@ if (heading) {
   });
 }
 
+
+
+
+
+
 // SCROLL TO TOP BUTTON
 function scrollToSection(event, sectionId, linkElement) {
   // Prevent the default anchor link behavior
@@ -70,6 +75,11 @@ function scrollToSection(event, sectionId, linkElement) {
   //add active class
   linkElement.classList.add("active");
 }
+
+
+
+
+
 
 // HAMBURGER MENU
 document.addEventListener("DOMContentLoaded", () => {
@@ -100,6 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+
+
+
+
 // TYPEWRITER EFFECT
 var typed = new Typed(".multiple-text", {
   strings: ["Web Developer", "Data Analyst", "MERN Stack Developer", "Gamer"],
@@ -126,6 +141,11 @@ function showContent(tabId) {
   document.getElementById(tabId).classList.add("active");
 }
 
+
+
+
+
+
 // CARD SLIDER
 let scrollContainer = document.querySelector(".all-projects");
 let backBtn = document.getElementById("backBtn");
@@ -144,6 +164,10 @@ backBtn.addEventListener("click", () => {
   scrollContainer.style.scrollBehavior = "smooth";
   scrollContainer.scrollLeft -= 369;
 });
+
+
+
+
 
 // CONTACT FORM VALIDATION
 document.addEventListener("DOMContentLoaded", () => {

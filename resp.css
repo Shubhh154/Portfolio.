@@ -66,8 +66,8 @@
         padding: auto;
     }
 }
+@media (max-width: 1080px) {
 
-@media (max-width: 1024) {
     /* Header */
     .header>.logo {
         font-size: 18px;
@@ -80,8 +80,17 @@
     }
 
     /* Skills */
-    .card-set{
-        margin: 0 -7%;
+    .section3 > .card-set{
+        margin: 0 -12%;
+    }
+
+    .all-projects{
+        width: 780px;
+    }
+
+    .timeline-items {
+        margin: 0 auto;
+        position: relative;
     }
 }
 
@@ -285,27 +294,32 @@
     }
 
     .home-img img {
-        width: 60%;
-        margin: 50px 30px 50px 30px;
+        width: 80%;
+        margin: auto;
         display: block;
     }
 
-    .home-content>h1 {
+    .home-content {
+        margin: 0 auto;
+    }
+
+    .home-content > h1 {
         font-size: 32px;
     }
 
-    .home-content>h3 {
+    .home-content > h3 {
         font-size: 22px;
     }
 
-    .home-content>p {
+    .home-content > p {
         font-size: 14px;
-        width: 355px;
+        width: auto;
         margin: auto;
     }
 
-    .home-content>a {
-        margin: 25px 90px;
+    .home-content > a {
+        margin: 25px 66px;
+        width: auto;
     }
 
     /* section2 */
@@ -415,16 +429,15 @@
     .exp-tabs {
         display: inline;
         margin-top: -35px;
-        /* margin-bottom: -35px; */
     }
 
     .exp-tabs>.tab {
-        padding: 10px 55px;
+        padding: 10px auto;
         font-size: small;
     }
 
     .exp-tabs>.tab.active {
-        padding: 10px 55px;
+        padding: 10px auto;
         font-size: small;
     }
 
@@ -516,10 +529,12 @@
 
     /* Section1 */
     .home-img img {
-        width: 55%;
-        margin: 0 80px;
-        margin-left: 39px;
+        width: 65%;
+        margin: 100px auto 0 auto;
+    }
 
+    .home-content {
+        margin: auto;
     }
 
     .home-content>h1 {
@@ -529,6 +544,16 @@
     .home-content>h3 {
         font-size: 15px;
     }
+
+    .home-content > p {
+        width: auto;
+    }
+
+    .home-content > a {
+        margin: auto;
+        font-size: 17px;
+    }
+
 
     /* section2 */
     .timeline-content {
@@ -557,18 +582,13 @@
     .exp-tabs {
         display: inline;
         margin-top: -15px;
-        margin-right: 10px;
+        width: 386px;
     }
-
-    .exp-tabs>.tab {
-        padding: 10px 40px;
-        font-size: small;
-    }
-
-    .exp-tabs>.tab.active {
-        padding: 10px 40px;
-        font-size: small;
-    }
+/*     
+    .exp-tabs {
+        display: inline;
+        margin-top: -35px;
+    } */
 
     /* Prooject */
     .section4>h2 {
@@ -576,7 +596,7 @@
     }
 
     .project-main {
-        margin-left: -19px;
+        margin-left: auto;
     }
 }
 
@@ -601,7 +621,7 @@
     /* Section1 */
     .home-img img {
         width: 60%;
-        margin: 50px 30px 50px 30px;
+        margin: 70px auto 0 auto;
         display: block;
     }
 
@@ -658,17 +678,17 @@
     /* Experiance section */
     .exp-tabs {
         display: inline;
-        margin-top: -15px;
-        margin-right: 10px;
+        margin-left: -16px;
+        margin-top: -36px;
     }
 
     .exp-tabs>.tab {
-        padding: 10px 40px;
+        padding: 10px auto;
         font-size: small;
     }
 
     .exp-tabs>.tab.active {
-        padding: 10px 40px;
+        padding: 10px auto;
         font-size: small;
     }
 
@@ -683,6 +703,7 @@
 
     .project-card {
         padding: auto;
+        margin-left: -15px;
     }
 
     .proj-content>p {
