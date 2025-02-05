@@ -51,7 +51,7 @@ if (heading) {
 
 
 
-// SCROLL TO TOP BUTTON
+// SCROLL TO TAP BUTTON
 function scrollToSection(event, sectionId, linkElement) {
   // Prevent the default anchor link behavior
   event.preventDefault();

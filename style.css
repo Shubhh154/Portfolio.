@@ -221,7 +221,7 @@ body {
     filter: drop-shadow(20px 20px 20px var(--neon-color));
 }
 
-.social-media > a {
+.social-media>a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +241,7 @@ body {
     animation-delay: calc(.2s * var(--i));
 }
 
-.social-media > a:hover {
+.social-media>a:hover {
     transform: scale(1.2) translateY(-5px);
     background: var(--neon-color);
     color: #1f242d;
@@ -249,15 +249,16 @@ body {
 
 }
 
-.social-media > a:active {
-    transform: scale(0.9) translateY(2px); /* Slight push-down effect on click */
+.social-media>a:active {
+    transform: scale(0.9) translateY(2px);
+    /* Slight push-down effect on click */
     box-shadow: 0 0 25px var(--neon-color);
 }
 
 .btn {
     display: inline-block;
     animation-delay: .7s;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation: slideTop 1s ease forwards;
     background: linear-gradient(90deg, #8a2be2, #00ffff);
     border: none;
@@ -269,8 +270,8 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
-    box-shadow: 0 0 5px rgba(255, 0, 255, 0.8), 
-                0 0 5px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(255, 0, 255, 0.8),
+        0 0 5px rgba(0, 255, 255, 0.8);
 }
 
 
@@ -415,15 +416,15 @@ body {
     border-radius: 50%;
     top: 10px;          
 } */
- 
+
 .odd-logo {
     height: 79px;
     width: 79px;
     background-color: var(--neon-color);
     /* box-shadow: 0 0 12px var(--neon-color),
         0 0 12px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     left: calc(50% - 78px);
     border-radius: 50%;
     position: absolute;
@@ -436,8 +437,8 @@ body {
     background-color: var(--neon-color);
     /* box-shadow: 0 0 12px var(--neon-color),
         0 0 12px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     left: calc(50% - 54px);
     border-radius: 50%;
     position: absolute;
@@ -462,13 +463,15 @@ body {
 
 .timeline-content {
     width: 630px;
+
+    /* max-width: 630px; */
+    /* width: 100%; */
     background-color: var(--card-color);
     border: 3px solid var(--neon-color);
     padding: 30px 50px;
     border-radius: 4rem;
-    /* box-shadow: 0 0 10px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -496,8 +499,8 @@ body {
 
 .timeline-content:hover {
     /* box-shadow: 0 0 25px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     transform: scale(1.05);
 }
 
@@ -506,6 +509,7 @@ body {
     font-size: 20px;
     margin: 0 0 10px;
     font-weight: 500;
+    overflow-wrap: break-word;
 }
 
 .timeline-content p {
@@ -513,6 +517,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+    word-wrap: break-word;
 }
 
 
@@ -544,14 +549,14 @@ body {
     width: auto;
     padding: 30px;
     /* box-shadow: 4px 4px 4px var(--neon-color); */
-    box-shadow: 4px 4px 4px rgba(255, 0, 255, 0.8), 
-    4px 4px 4px rgba(0, 255, 255, 0.8);
+    box-shadow: 4px 4px 4px rgba(255, 0, 255, 0.8),
+        4px 4px 4px rgba(0, 255, 255, 0.8);
 }
 
 .card:hover {
     /* box-shadow: 0 0 25px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
 }
 
 .card>h3 {
@@ -652,8 +657,8 @@ body {
 
 .tab:hover {
     /* box-shadow: 0 0 20px var(--neon-color); */
-    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8), 
-    0 0 20px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+        0 0 20px rgba(0, 255, 255, 0.8);
     transition: 0.5s ease-in-out;
 }
 
@@ -665,8 +670,8 @@ body {
 
 .exp-content>.tab:hover {
     /* box-shadow: 0 0 20px var(--neon-color); */
-    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8), 
-    0 0 20px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+        0 0 20px rgba(0, 255, 255, 0.8);
     transition: 0.5s ease-in-out;
 
 }
@@ -682,8 +687,8 @@ body {
 
 .exp-content:hover {
     /* box-shadow: 5px 5px 20px var(--neon-color); */
-    box-shadow: 5px 5px 20px rgba(255, 0, 255, 0.8), 
-    5px 5px 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 5px 5px 20px rgba(255, 0, 255, 0.8),
+        5px 5px 25px rgba(0, 255, 255, 0.8);
 }
 
 .content {
@@ -799,8 +804,8 @@ body {
 
 .project-card:hover {
     /* box-shadow: 0 0 25px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     transform: scale(1.05);
 }
 
@@ -923,14 +928,14 @@ body {
     gap: 5px;
 }
 
-.cont-btn:nth-child(2){
+.cont-btn:nth-child(2) {
     font-weight: bolder;
 }
 
 .cont-btn:hover {
     /* box-shadow: 0 0 15px var(--neon-color); */
-    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 
-    0 0 25px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8),
+        0 0 25px rgba(0, 255, 255, 0.8);
     transition: .5s ease;
 }
 

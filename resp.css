@@ -113,7 +113,7 @@
         display: none;
         flex-direction: column;
         gap: 16px;
-        background-color: #1b1f27;
+        background-color: #1e1b29;
         position: fixed;
         width: 200px;
         height: 250px;
@@ -126,12 +126,14 @@
 
     .navbar.active {
         display: flex;
+        background-color: #1e1b29;
         opacity: 1;
     }
 
     .hamburger {
         display: flex;
         cursor: pointer;
+        color: #1e1b29;
     }
 
     /* Section1 */
@@ -530,11 +532,11 @@
     /* Section1 */
     .home-img img {
         width: 65%;
-        margin: 100px auto 0 auto;
+        margin: auto auto 10px auto;
     }
 
     .home-content {
-        margin: auto;
+        margin: 0 auto 0 auto;
     }
 
     .home-content>h1 {
