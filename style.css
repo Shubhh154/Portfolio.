@@ -54,7 +54,7 @@ body {
 
 :root {
     /* --neon-color: #0ef; */
-    --neon-color: rgb(96, 0, 205);
+    --neon-color: #6000cd;
     --text-color: white;
     --card-color: #1e1b29;
 }
@@ -561,8 +561,12 @@ body {
 
 .card>h3 {
     text-align: center;
-    margin: 0 0 25px 0;
     color: rgb(172, 172, 172);
+}
+
+.card > p {
+    text-align: center;
+    padding: 20px;
 }
 
 .card>ul>li>img {
@@ -579,11 +583,14 @@ body {
     display: inline-flex;
     justify-content: space-around;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .card>ul>li:hover {
     border: 2px solid var(--neon-color);
     transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: var(--neon-color);
 }
 
 .card>ul>li>span>a {
@@ -769,6 +776,13 @@ body {
 }
 
 /* Card Swiper */
+
+.section4 > p {
+    padding: 20px 0;
+    color: #a4a4a4;
+    width: auto;
+}
+
 .project-main {
     display: flex;
     align-items: center;
