@@ -262,3 +262,45 @@ document.addEventListener("DOMContentLoaded", () => {
     return phoneRegex.test(phone);
   }
 });
+
+
+
+
+// Scroll-to-top button
+document.addEventListener("DOMContentLoaded", function () {
+  let scrollToTopBtn = document.getElementById("scrollToTop");
+
+  window.addEventListener("scroll", function () {
+      if (window.scrollY > 500) {
+          scrollToTopBtn.classList.add("show");
+      } else {
+          scrollToTopBtn.classList.remove("show");
+      }
+
+      
+  });
+
+  scrollToTopBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+});
+
+
+// Scrolling line at the top of the page
+
+// console.log(document.body.scrollHeight);
+// console.log(window.innerHeight);
+
+let fullHight=document.body.scrollHeight-window.innerHeight
+// console.log(fullHight);
+
+window.addEventListener("scroll", function () {
+  scr=pageYOffset
+
+  progress=(scr/fullHight)*100
+  document.getElementById("topscrollbar").style.width=`${progress}vw`
+  // console.log(scroll);
+
+  
+});

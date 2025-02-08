@@ -100,7 +100,6 @@
     .header {
         width: 100%;
         position: fixed;
-        top: 0;
         left: 0;
         z-index: 100;
     }
@@ -117,7 +116,7 @@
         position: fixed;
         width: 200px;
         height: 250px;
-        top: 100px;
+        top: 70px;
         right: 40px;
         padding: 10px;
         border-radius: 5px;
@@ -227,7 +226,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 416px) {
 
 
     .title {
@@ -237,7 +236,6 @@
     .header {
         width: 100%;
         position: fixed;
-        top: 0;
         left: 0;
         z-index: 100;
     }
@@ -282,7 +280,6 @@
 
     /* Section1 */
     .section1 {
-        top: 10px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -321,6 +318,7 @@
 
     .home-content > a {
         margin: 25px 66px;
+        font-size: 12px;
         width: auto;
     }
 
@@ -416,10 +414,20 @@
         row-gap: 12px;
     }
 
+    .card > p {
+        text-align: center;
+        font-size: 14px;
+        max-width: 280px;
+    }
+
     /* Section4 */
     /* Experiance section */
     .section4>h1 {
         font-size: 20px;
+    }
+
+    .section4 > p{
+        font-size: 14px;
     }
 
     .section4>.exp-flex {
@@ -516,6 +524,10 @@
     .cont-btn {
         margin: 40px;
     }
+
+    .scroll-to-top.show {
+        display: block;
+    }
 }
 
 @media (max-width: 384px) {
@@ -524,7 +536,6 @@
     .header {
         width: 384px;
         position: fixed;
-        top: 0;
         left: 0;
         z-index: 100;
     }
@@ -551,10 +562,6 @@
         width: auto;
     }
 
-    .home-content > a {
-        margin: auto;
-        font-size: 17px;
-    }
 
 
     /* section2 */
@@ -600,6 +607,12 @@
     .project-main {
         margin-left: auto;
     }
+
+    /* scroll-to-top */
+    .scroll-to-top {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -607,15 +620,15 @@
     /* Header */
     .navbar.active {
         display: flex;
-        top: 65px;
-        right: 5px;
-        width: 100%;
+        top: 69px;
+        right: 0;
+        left: 0;
+        width: 110%;
     }
 
     .header {
         width: 100%;
         position: fixed;
-        top: 0;
         left: 0;
         z-index: 100;
     }

@@ -15,33 +15,36 @@
 
     </head>
     <body>
+
+        <div id="topscrollbar"></div>
         <div class="cursor">
             <div class="cursor-dot" data-cursor-dot></div>
-            <div class="cursor-outline" data-cursor-outline></div>
+            <div class="cursor-outline" data-cursor-outline>
         </div>
+     
         <header class="header">
             <a href="#" class="logo">< Shubham /<span class="srnm">Sherkhane.</span>></a>
-
+            
             <nav class="navbar">
                 <a href="#Home" style="--i:1"
-                    class="nav-btn btn-first underline-animation" onclick="scrollToSection(event, 'Home', this)">Home</a>
+                class="nav-btn btn-first underline-animation" onclick="scrollToSection(event, 'Home', this)">Home</a>
                 <a href="#Skills" style="--i:2"
-                    class="nav-btn btn-third underline-animation" onclick="scrollToSection(event, 'Skills', this)"> Skills</a>
+                class="nav-btn btn-third underline-animation" onclick="scrollToSection(event, 'Skills', this)"> Skills</a>
                 <a href="#Experiance" style="--i:3"
-                    class="nav-btn btn-fourth underline-animation" onclick="scrollToSection(event, 'Experiance', this)">Experience</a>
+                class="nav-btn btn-fourth underline-animation" onclick="scrollToSection(event, 'Experiance', this)">Experience</a>
                 <a href="#Education" style="--i:4"
-                    class="nav-btn btn-second underline-animation" onclick="scrollToSection(event, 'Education', this)">Education</a>
+                class="nav-btn btn-second underline-animation" onclick="scrollToSection(event, 'Education', this)">Education</a>
                 <a href="#Contact" style="--i:5"
-                    class="nav-btn btn-fifth underline-animation" onclick="scrollToSection(event, 'Contact', this)">Contact</a>
+                class="nav-btn btn-fifth underline-animation" onclick="scrollToSection(event, 'Contact', this)">Contact</a>
             </nav>
+
             <div class="hamburger">
                 <div class="open">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FBFD"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
                 </div>
                 <div class="close">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#75FBFD"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                </div>
-                    
+                </div>                   
             </div>
         </header>
 
@@ -220,123 +223,147 @@
             </main>
 
             <h2 class="title block">< Projects <span class="neon">/</span>></h2>
-
-            <p>Here are some basic and intermediate projects which I built in my journey as a developer.</p>
-                               
+            <p>Here are some basic and intermediate projects which I built in my journey as a developer.</p>                 
              <!-- Slider main container -->
-        <main class="project-main block">
-            <div class="project-wrap">
-                <div id="backBtn" class="backbtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#05fff5" fill="none">
-                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
+            <main class="project-main block">
+                <div class="project-wrap">
+                    <div id="backBtn" class="backbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#05fff5" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
 
-                <div class="all-projects">
-                    <div class="project-cards">
-                        <div class="project-card">
-                            <div class="proj-card">
-                                <div class="proj-image">
-                                <img
-                                    src="projects/Spotify.png"
-                                    alt>
-                            </div>
-            
-                            <div class="proj-capsules">
-                                <span>JavaScript</span>
-                                <span>Html</span>
-                                <span>CSS</span>
-                                <span>API</span>
-                            </div>
-                            <div class="proj-content">
-                                <h3>Spotify Clone</h3>
-                                <p>A styled layout with sections for songs, albums, and playlists. JavaScript enables navigation, playback controls, and static playlist management, also responsive wed design</p>
+                    <div class="all-projects">
+                        <div class="project-cards">
+                            <div class="project-card">
+                                <div class="proj-card">
+                                    <div class="proj-image">
+                                    <img
+                                        src="projects/jobportal.jpg"
+                                        alt>
+                                </div>
+                
+                                <div class="proj-capsules">
+                                    <span>Python</span>
+                                    <span>Tableau</span>
+                                    <span>MsXL</span>
+                                    <span>JavaScript</span>
+                                    <span>Css</span>
+                                </div>
+                                <div class="proj-content">
+                                    <h3>Real-time job analytic portal</h3>
+                                    <p>Web platform that analyzes job market trends, salaries, and skill demand using real-time data. It helps job seekers and employers make informed decisions through interactive dashboards and insights.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="project-card">
-                            <div class="proj-card">
-                                <div class="proj-image">
-                                <img
-                                    src="projects/ToDoList.png"
-                                    alt>
-                            </div>
-            
-                            <div class="proj-capsules">
-                                <span>React.js</span>
-                                <span>CSS</span>
-                                <span>Tailwindcss</span>
-                            </div>
-                            <div class="proj-content">
-                                <h3>To-Do List</h3>
-                                <p>Allows users to manage tasks efficiently. It provides features like adding, editing, and deleting tasks, with a clean interface styled using tailwindcss. React hooks handles task interactions, status updates and local storage to save data</p>
+                            <div class="project-card">
+                                <div class="proj-card">
+                                    <div class="proj-image">
+                                    <img
+                                        src="projects/Spotify.png"
+                                        alt>
+                                </div>
+                
+                                <div class="proj-capsules">
+                                    <span>JavaScript</span>
+                                    <span>Html</span>
+                                    <span>CSS</span>
+                                    <span>API</span>
+                                </div>
+                                <div class="proj-content">
+                                    <h3>Spotify Clone</h3>
+                                    <p>A styled layout with sections for songs, albums, and playlists. JavaScript enables navigation, playback controls, and static playlist management, also responsive wed design</p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="project-card">
+                                <div class="proj-card">
+                                    <div class="proj-image">
+                                    <img
+                                        src="projects/ToDoList.png"
+                                        alt>
+                                </div>
+                
+                                <div class="proj-capsules">
+                                    <span>React.js</span>
+                                    <span>CSS</span>
+                                    <span>Tailwindcss</span>
+                                </div>
+                                <div class="proj-content">
+                                    <h3>To-Do List</h3>
+                                    <p>Allows users to manage tasks efficiently. It provides features like adding, editing, and deleting tasks, with a clean interface styled using tailwindcss. React hooks handles task interactions, status updates and local storage to save data</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
+        
+                        <div class="project-cards">
 
-                        <div class="project-card">
-                            <div class="proj-card">
-                                <div class="proj-image">
-                                <img
-                                    src="projects/portfolio.png"
-                                    alt>
+                            <div class="project-card">
+                                <div class="proj-card">
+                                    <div class="proj-image">
+                                    <img
+                                        src="projects/portfolio.png"
+                                        alt>
+                                </div>
+                
+                                <div class="proj-capsules">
+                                    <span>JavaScript</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Swiper</span>
+                                    <span>Web3forms</span>
+                                </div>
+                                <div class="proj-content">
+                                    <h3>Portfolio</h3>
+                                    <p>Personal web page to showcase skills, projects, and achievements. It features a visually appealing, responsive design and interactive elements.</p>
+                                    </div>
+                                </div>
                             </div>
-            
-                            <div class="proj-capsules">
-                                <span>JavaScript</span>
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>Swiper</span>
-                                <span>Web3forms</span>
-                            </div>
-                            <div class="proj-content">
-                                <h3>Portfolio</h3>
-                                <p>Personal web page to showcase skills, projects, and achievements. It features a visually appealing, responsive design and interactive elements.</p>
+
+                            <div class="project-card">
+                                <div class="proj-card">
+                                    <div class="proj-image">
+                                    <img
+                                        src="projects/twitter.png"
+                                        alt>
+                                </div>
+                
+                                <div class="proj-capsules">
+                                    <span>JavaScript</span>
+                                    <span>CSS</span>
+                                    <span>HTML</span>
+                                    <span>Tailwindcss</span>
+                                </div>
+                                <div class="proj-content">
+                                    <h3>Twitter Clone</h3>
+                                    <p>It replicates Twitter's design with a responsive Tailwind CSS layout,Responsive design, a feed, tweet composer, and interactive buttons, using JavaScript for basic UI functionality.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="project-cards">
-                        <div class="project-card">
-                            <div class="proj-card">
-                                <div class="proj-image">
-                                <img
-                                    src="projects/twitter.png"
-                                    alt>
-                            </div>
-            
-                            <div class="proj-capsules">
-                                <span>JavaScript</span>
-                                <span>CSS</span>
-                                <span>HTML</span>
-                                <span>Tailwindcss</span>
-                            </div>
-                            <div class="proj-content">
-                                <h3>Twitter Clone</h3>
-                                <p>It replicates Twitter's design with a responsive Tailwind CSS layout,Responsive design, a feed, tweet composer, and interactive buttons, using JavaScript for basic UI functionality.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div id="nextBtn" class="nextbtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#05fff5" fill="none">
-                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                    <div id="nextBtn" class="nextbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#05fff5" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                    
+                    </div>
+                    
                 </div>
-                <div>
-                   
-                </div>
-            </div>
-        </main>
+            </main>
+            
         </section>
 
 
         <section id="Education" class="section2 view">
             <h2 class="title block">< Education <span class="neon">/</span>></h2>
-            <div class="timeline-items content-anim block">
+            <p>A Journey Fueled by Passion, Knowledge, and Dedication</p>
+            <main class="timeline-items content-anim block">
     
     
                 <div class="timeline-item block">
@@ -376,10 +403,10 @@
                         <p class="institude">S.G.M. School, Satara</p>
                         <p class="str-date">Dec2019</p>
                         <p class="str-date">Percentage: 65.40%</p>
-                        <p class="disc">I have completed my Secondary School Certificate (SSC) with a 65%% score. Throughout my academic journey, I believe in staying positive, putting in consistent effort, and working towards achieving my goals."</p>
+                        <p class="disc">I have completed my Secondary School Certificate (SSC) with a 65% score. Throughout my academic journey, I believe in staying positive, putting in consistent effort, and working towards achieving my goals.</p>
                     </div>
                 </div>
-            </div>
+            </main>
         </section>
     
 
@@ -430,6 +457,9 @@
 
                 </main>
             </form>
+
+            <button id="scrollToTop" class="scroll-to-top ">↑</button>
+
         </section>
 
         
