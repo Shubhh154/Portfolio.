@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // TYPEWRITER EFFECT
 var typed = new Typed(".multiple-text", {
-  strings: ["Web Developer", "MERN Stack Developer", "Frontend Developer", "Backend Developer"],
+  strings: ["Web Developer", "MERN Stack Developer", "Frontend Developer"],
   typeSpeed: 80,
   backSpeed: 80,
   backDelay: 800,
